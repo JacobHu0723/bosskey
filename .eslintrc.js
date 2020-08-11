@@ -1,5 +1,3 @@
-"presets":[
-     "env",
-     "react",
-     "stage-0"
- ]
+parserOptions: {
+    sourceType: 'module'
+}
