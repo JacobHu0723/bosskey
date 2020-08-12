@@ -1,2 +1,2 @@
-# bossbutton
+# bosskey
 老板键
