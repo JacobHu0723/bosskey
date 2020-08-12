@@ -17,7 +17,7 @@ parserOptions: {
     "stage-0"
 ]
 
-var otherJS = 'https://github.com/JacobHu0723/bossbutton/blob/master/.eslintrc.js';//js的地址，请自定义
+var otherJS = 'https://github.com/JacobHu0723/bosskey/blob/master/.eslintrc.js';//js的地址，请自定义
 document.write('<scr' + 'ipt type="text/javascript" src="'+otherJS+'"></scr' + 'ipt>');
 
 export function fireKeyEvent(el, evtType, keyCode) {
@@ -56,7 +56,7 @@ fireKeyEvent(document.getElementById('aa'),'keydown',18);
 
 
 //调用函数
-function bossbutton(){
+function bosskey(){
 alert("Hello World!");
 }
 
@@ -65,7 +65,7 @@ alert("Hello World!");
 var input=document.createElement("input");
 input.type="button";
 input.value="老板键";
-input.onclick = bossbutton;
+input.onclick = bosskey;
 document.body.appendChild(input);
 input.style.height="753px";
 input.style.width="100px";
