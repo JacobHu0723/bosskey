@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         老板键
 // @namespace    正式版
-// @version      0.2.2
+// @version      0.1.2
 // @license      MIT
 // @description  悄悄咪咪地做些什么吧~不要被发现咯~
 // @author       Jacob_Hu
@@ -70,7 +70,7 @@ input.type="button";
 input.value="老板键";
 input.onclick = bosskey;
 document.body.appendChild(input);
-input.style.height="753px";
+input.style.height="755px";
 input.style.width="100px";
 input.style.position="fixed";
 input.style.left="93%";
