@@ -1,8 +1,12 @@
 // ==UserScript==
 // @name         老板键
-// @version      0.2.0
+// @namespace    正式版
+// @version      0.2.1
+// @license      MIT
 // @description  悄悄咪咪地做些什么吧~不要被发现咯~
 // @author       Jacob_Hu
+// @website      https://github.com/JacobHu0723/bosskey
+// @icon         https://gitee.com/jacobhu0723/picture/raw/ico/J.ico
 // @include      http*://cc.163.com/*
 // @grant        GM_log
 // ==/UserScript==
