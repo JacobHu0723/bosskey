@@ -8,7 +8,6 @@
 // @website      https://github.com/JacobHu0723/bosskey
 // @icon         https://gitee.com/jacobhu0723/picture/raw/ico/J.ico
 // @include      http*://cc.163.com/*
-// @grant        GM_log
 // ==/UserScript==
 
 parserOptions: {
