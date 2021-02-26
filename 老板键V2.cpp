@@ -1,4 +1,4 @@
-#include<windows.h>
+﻿#include<windows.h>
 
 #pragma comment( linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"" ) 
 
@@ -6,7 +6,7 @@
 
 int main() {
 	bool f = false;
-	HWND hwnd = ::FindWindow("Chrome_WidgetWin_1",NULL);//获取窗口的句柄 
+	HWND hwnd = ::FindWindow("Chrome_WidgetWin_1", NULL);//获取窗口的句柄 
 	HWND hwnd2 = ::GetParent(hwnd);
 	while (1) {
 		if (KEY_DOWN(VK_MBUTTON)) { //按下鼠标中键
@@ -14,6 +14,6 @@ int main() {
 			f = 1 - f;
 			Sleep(100);
 		}
-		Sleep(500);
+		Sleep(100);
 	}
 }
